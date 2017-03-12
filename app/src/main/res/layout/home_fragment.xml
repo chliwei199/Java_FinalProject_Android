@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvComＡdv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最新廠商廣告"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#CCCCCC" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpAdv"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tvComＡdv"/>
+    <LinearLayout
+        android:id="@+id/pagesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/vpAdv" >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pagesContainer">
+
+    <TextView
+        android:id="@+id/tvComInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最新廠商訊息"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#F9D6D6" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvAdvsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvComInfo"/>
+    </RelativeLayout>
+</RelativeLayout>

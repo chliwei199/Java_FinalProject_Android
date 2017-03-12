@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_Home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/text_Home" />
+        <item
+            android:id="@+id/item_MyAppointment"
+            android:icon="@drawable/ic_appointment_64"
+            android:title="@string/text_MyAppointment" />
+        <item
+            android:id="@+id/item_Messages"
+            android:icon="@drawable/ic_message_64"
+            android:title="@string/text_Messages" />
+
+        <item
+            android:id="@+id/item_Places"
+            android:icon="@drawable/ic_hotel_64"
+            android:title="@string/text_Place" />
+        <item
+            android:id="@+id/item_Groups"
+            android:icon="@drawable/ic_photo_64"
+            android:title="社群相片" />
+
+
+    </group>
+</menu>

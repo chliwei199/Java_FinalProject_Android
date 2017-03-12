@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RadioGroup
+        android:id="@+id/rgPlace_Choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvPlaceArea"
+            android:text="地區:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/PlaceArea_array"/>
+
+        <TextView
+            android:id="@+id/tvPlaceType"
+            android:text="類型:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/PlaceType_array"
+            android:layout_toRightOf="@+id/spArea" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btSearch_Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/text_btSearch"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:layout_above="@+id/swipeRefreshLayout_Place" />
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout_Place"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rgPlace_Choose" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvNews_Place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!-- build.gradle (Module:app) must add [com.android.support:design] API -->
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/rgPlace_Choose"  >
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

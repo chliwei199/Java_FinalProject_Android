@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvPlacePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="場地圖片:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:background="#DDDDDD" />
+    <ImageView
+        android:id="@+id/ivPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPlacePic"
+        android:src="@drawable/default_image"    />
+    <TextView
+        android:id="@+id/tvMenuPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="場地菜色:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/ivPlace"
+        android:background="#DDDDDD" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/rvPlaceMenu"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#DDDDDD"
+        android:layout_below="@+id/tvMenuPic" />
+    <LinearLayout
+        android:id="@+id/pagesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/rvPlaceMenu" >
+    </LinearLayout>
+    <Button
+        android:id="@+id/btReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btReserve"
+        android:background="@drawable/shape"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/pagesContainer" />
+    <TextView
+        android:id="@+id/tvPlaceDetailBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="場地詳述:"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@+id/btReserve"/>
+
+
+    <TextView
+        android:id="@+id/tvPlaceNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Detail"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPlaceDetailBar" />
+
+
+
+</RelativeLayout>
+    </ScrollView>

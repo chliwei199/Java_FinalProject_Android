@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="90dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wedding_logo"  />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_UserNameLog"
+        android:padding="20dp"
+        android:text="aaaaa11111"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUserName"
+        android:hint="@string/text_Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:text="abcde12345"
+        android:textSize="22sp"/>
+    <Button
+        android:id="@+id/btLogin"
+        android:text="@string/text_Login"
+        android:onClick="onLoginClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/shape" />
+    <CheckBox
+        android:id="@+id/cbSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="@string/cbSaved" />
+
+</LinearLayout>

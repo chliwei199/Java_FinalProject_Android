@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">MarryMe</string>
+    <!--Menu -->
+    <string name="text_Home">首頁</string>
+    <string name="text_Messages">線上聊天</string>
+    <string name="text_MyAppointment">我的預約</string>
+    <string name="text_Map">Map</string>
+    <string name="text_Place">婚宴會館</string>
+    <string name="text_Groups">我的社群</string>
+    <string name="text_Photo">社群相片</string>
+    <string name="text_UserName">Bruce Lee</string>
+    <string name="text_Email">bruceLee@gmail.com</string>
+    <string name="text_Greet">你好，</string>
+    <string name="text_Open">Open</string>
+    <string name="text_Close">Close</string>
+
+    <!--askPermissions -->
+    <string name="msg_NoNewsFound">No news found</string>
+    <string name="msg_NoSpotsFound">No spots found</string>
+    <string name="msg_NoSuppliersFound">No Suppliers found</string>
+    <string name="msg_MapNotDisplayed">Map cannot be displayed</string>
+    <string name="msg_ClickAgain">Please click the item again</string>
+    <string name="msg_NoNetwork">no network connection available</string>
+    <string name="msg_InsertSuccess">Insert Photo Successfully</string>
+    <string name="msg_InsertFail">Insert Photo Fail</string>
+    <string name="msg_UpdateSuccess">Update successfully</string>
+    <string name="msg_UpdateFail">Update fail</string>
+    <string name="msg_DeleteSuccess">Delete successfully</string>
+    <string name="msg_DeleteFail">Delete fail</string>
+    <string name="msg_TitleIsInvalid">Title is invalid</string>
+    <string name="msg_NameIsInvalid">Name is invalid</string>
+    <string name="msg_NoImage">No image</string>
+    <string name="msg_NoDataFound">No data found</string>
+    <string name="msg_NoCameraAppsFound">no camera apps found</string>
+
+    <string name="text_Insert">Insert</string>
+    <string name="text_Update">Update</string>
+    <string name="text_Delete">Delete</string>
+    <string name="text_SpotId">ID Number</string>
+    <string name="text_btCancel">Cancel</string>
+    <string name="text_TakePicture">Take Picture</string>
+    <string name="text_PickPicture">Pick Picture</string>
+    <string name="text_NotGranted">not granted</string>
+    <string name="text_Spot">Spot</string>
+    <string name="text_Exit">Exit</string>
+    <string name="msg_WantToExit">Do you really want to exit?</string>
+    <string name="text_Yes">Yes</string>
+    <string name="text_No">No</string>
+
+    <!--Login -->
+    <string name="cbSaved">儲存密碼</string>
+    <string name="text_UserNameLog">帳號</string>
+    <string name="text_Password">密碼</string>
+    <string name="text_Login">登入</string>
+    <string name="text_Register">註冊</string>
+    <string name="msg_errorUserOrPassword">帳號或密碼輸入錯誤！</string>
+    <string name="msg_errorNoAccount">無此帳號!</string>
+    <!--Photo -->
+    <string name="msg_NoPhotosFound">無照片資料</string>
+    <string name="text_PhotoTitle">Title</string>
+    <string name="text_PhotoName">Name</string>
+    <string name="text_SpotAddress">Address</string>
+
+    <!--Groups -->
+    <string name="text_GroupsBulletin">塗鴉牆</string>
+    <string name="text_GroupsPhotos">社群相片</string>
+    <string name="msg_NoGroups">無社群資料</string>
+    <!--Places -->
+    <string name="msg_NoPlacesFound">無場地資料</string>
+    <string name="text_btSearch">搜尋</string>
+    <string name="text_rbArea">地區:</string>
+    <string name="text_rbType">類型:</string>
+    <string-array name="PlaceArea_array">
+        <item>北部</item>
+        <item>中部</item>
+        <item>南部</item>
+        <item>東部</item>
+    </string-array>
+    <string-array name="PlaceType_array">
+        <item>酒店、飯店</item>
+        <item>庭園、莊園</item>
+        <item>婚宴餐廳</item>
+    </string-array>
+    <string name="text_btReserve">立即預約</string>
+    <string name="text_btReserveCalendar">日期確認</string>
+    <!--Menus -->
+    <string name="msg_NoMenusFound">無菜單資料</string>
+    <!--Appointment-->
+    <string name="text_AppointmentTile">訂單確認:</string>
+    <string name="text_MemberName">會員姓名:</string>
+    <string name="text_AppointmentPlaceDate">宴客日期:</string>
+    <string name="text_PlaceNo">場地編號:</string>
+    <string name="text_PlaceName">場地名稱:</string>
+    <string name="text_AppointmentNo">預約訂單編號:</string>
+    <string name="text_SupplierName">廠商名稱:</string>
+    <string name="text_SupplierMobile">廠商電話:</string>
+    <string name="text_AppointmentCancel">取消</string>
+    <string name="text_AppointmentlistCancel">取消訂單</string>
+    <string name="text_AppointmentCommit">確認</string>
+    <string name="text_BeReserved">當天預約已滿!!</string>
+    <string name="text_DateFilter">此日不接受預約!!</string>
+    <string name="msg_ReserveFail">預約失敗!</string>
+    <string name="msg_ReserveSuccess">預約成功!</string>
+    <string name="text_AppointmentListTile">預約訂單:</string>
+    <!--Appointment List-->
+    <string name="text_ReserveDate">預約日期:</string>
+    <string name="msg_NoAppointmentList">無訂單資料</string>
+    <string name="msg_AppointmentListDeleteOk">刪除訂單成功</string>
+    <string name="msg_AppointmentListDeleteFail">刪除訂單失敗</string>
+    <!--Friend-->
+    <string name="msg_NoFriends">沒有朋友!!</string>
+    <!--Messages-->
+    <string name="text_Send">Send</string>
+    <string name="text_MessageEmpty">Message is empty!</string>
+    <string name="text_LeftChatRoom">Left chat room</string>
+    <!--Advertisement-->
+    <string name="msg_NoAdvsFound">無廣告資料</string>
+    <string name="msg_NoAdvsPicFound">無廣告圖片</string>
+</resources>

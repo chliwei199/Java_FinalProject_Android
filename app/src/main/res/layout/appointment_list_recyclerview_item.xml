@@ -1,0 +1,127 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"   >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvAppointmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_AppointmentListTile"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"      />
+        <View
+            android:id="@+id/HorizontalLine_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvAppointmentTitle"
+            android:background="@color/darkgray" />
+        <TextView
+            android:id="@+id/tvMemberName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_MemberName"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/HorizontalLine_Title"/>
+        <View
+            android:id="@+id/HorizontalLine_MemberName"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvMemberName"
+            android:background="@color/darkgray" />
+        <TextView
+            android:id="@+id/tvReserveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ReserveDate"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/HorizontalLine_MemberName" />
+        <View
+            android:id="@+id/HorizontalLine_ReserveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvReserveDate"
+            android:background="@color/darkgray" />
+        <TextView
+            android:id="@+id/tvAppointmentPlaceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_AppointmentPlaceDate"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/HorizontalLine_ReserveDate" />
+        <View
+            android:id="@+id/HorizontalLine_AppointmentPlaceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvAppointmentPlaceDate"
+            android:background="@color/darkgray" />
+        <TextView
+            android:id="@+id/tvPlaceNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_PlaceNo"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/HorizontalLine_AppointmentPlaceDate" />
+        <View
+            android:id="@+id/HorizontalLine_PlaceNo"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvPlaceNo"
+            android:background="@color/darkgray" />
+        <TextView
+            android:id="@+id/tvAppointmentNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_AppointmentNo"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/HorizontalLine_PlaceNo" />
+        <View
+            android:id="@+id/HorizontalLine_PlaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvAppointmentNo"
+            android:background="@color/darkgray" />
+
+        <Button
+            android:id="@+id/btCancel_AppointmentList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_AppointmentlistCancel"
+            android:background="@drawable/shape_cancel"
+            android:layout_marginRight="15dp"
+            android:layout_margin="0dp"
+            android:textColor="#A0A0A0"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/HorizontalLine_PlaceName" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

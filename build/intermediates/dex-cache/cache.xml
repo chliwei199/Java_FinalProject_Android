@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\chenlin\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.0\db2658f013fb163de4a99274c2eb9e17efe535d2\Java-WebSocket-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="db2658f013fb163de4a99274c2eb9e17efe535d2">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\Java-WebSocket-1.3.0_e02e3d5ac48f59d827e2bedd43b5a48843b4c45c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.0_9d865b6ee8bb055848ec56fb936470301fa48f60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_e635dc2ce85257dd84de4305ecb7b36968b120f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chenlin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_f3d04fee89e46592886ebc7df116f9c43819ead7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\libs\httpclient-4.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="fcacc35075d9c3114da4c4122b42d78786135c90">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\httpclient-4.0.3_e074197d56242cabc2f17fef288048fa9ff0b97d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.0.0_47e141f3279cd518ad3a3680d772d5a4d53666c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_114269c2f7a3c758602676babd8a898cdf5cdad8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_3bd973d76854931a734ad1987fddd5a9cd150d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.0.0_4ccf88fcd06c350e85a5084a0cc51f3952183eac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chenlin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\gson-2.3.1_275acac024c0c03478afe2a4c891cff40532e7f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\libs\apache-httpcomponents-httpcore.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="D:\III\project\Code\android\WeddingPlatform_20170117_AA105G2_Final\app\build\intermediates\pre-dexed\debug\apache-httpcomponents-httpcore_234f7ef5ccb7412545ab9a525c44e9d7773da60e.jar" />
+    </item>
+
+</items>
